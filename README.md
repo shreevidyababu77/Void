@@ -1,2 +1,2 @@
 # Void
-Next.js e-commerce UI with react context,built by a 2-member team
+VOID – A productivity and screen-time management platform that encourages focused work through goals, focus sessions, and reward points.
