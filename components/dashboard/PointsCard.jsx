@@ -1,6 +1,10 @@
-import Card from "../ui/Card";
 
-export default function PointsCard({ points = 0 }) {
+import Card from "../ui/Card";
+import { useAppContext } from "../../context/AppContext";
+
+export default function PointsCard() {
+  const { points } = useAppContext();
+
   return (
     <Card>
       <h3 className="text-gray-500 text-sm font-medium">

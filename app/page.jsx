@@ -54,7 +54,7 @@ export default function Home() {
 
         {/* Points section */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-          <PointsCard points={120} />
+         <PointsCard />
 
           <Card>
             <h3 className="text-gray-500 text-sm font-medium">
