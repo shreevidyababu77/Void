@@ -9,7 +9,7 @@ export default function Input({
   return (
     <div className="flex flex-col gap-2">
       {label && (
-        <label className="text-sm font-medium text-gray-700">
+        <label className="text-sm font-medium text-[#252938]">
           {label}
         </label>
       )}
@@ -20,7 +20,8 @@ export default function Input({
         value={value}
         onChange={onChange}
         required={required}
-        className="w-full px-4 py-2 border border-gray-300 rounded-lg outline-none focus:ring-2 focus:ring-violet-500 focus:border-violet-500"
+        className="w-full rounded-lg border border-[#E2E5EC] bg-white px-4 py-3 !text-[#252938] placeholder:!text-gray-400 outline-none focus:border-[#7966D8] focus:ring-2 focus:ring-[#7966D8]/20"
+        style={{ color: "#252938", backgroundColor: "#ffffff" }}
       />
     </div>
   );
