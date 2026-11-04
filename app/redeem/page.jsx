@@ -26,7 +26,7 @@ export default function RedeemPage() {
       return;
     }
 
-    const success = redeemPoints(selectedBreak.cost);
+    const success = redeemPoints(selectedBreak.cost, selectedBreak);
 
     if (success) {
       setMessage(
